@@ -13,52 +13,57 @@
 </head>
 <body class="flex flex-col justify-between items-center h-screen m-0 text-gray-800">
 
-    <!-- HEADER WHATSAPP WEB INVITE -->
-    <div class="w-full bg-white px-4 py-3 shadow-sm flex items-center justify-between border-b border-gray-200">
-        <div class="flex items-center space-x-2 text-gray-600">
-            <i class="fa-solid fa-chevron-left text-base"></i>
-            <span class="text-sm font-medium">Undangan Grup WhatsApp</span>
+    <!-- HEADER WHATSAPP ASLI -->
+    <div class="w-full bg-[#00a884] text-white px-4 py-3 shadow-md flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+            <i class="fa-solid fa-arrow-left text-lg cursor-pointer"></i>
+            <span class="text-base font-medium">WhatsApp</span>
         </div>
-        <div class="flex items-center space-x-3 text-gray-600">
-            <i class="fa-solid fa-ellipsis-vertical text-lg"></i>
+        <div class="flex items-center space-x-5 text-lg">
+            <i class="fa-solid fa-search cursor-pointer"></i>
+            <i class="fa-solid fa-ellipsis-vertical cursor-pointer"></i>
         </div>
     </div>
 
-    <!-- MAIN CONTENT KONTENER -->
-    <div class="w-full max-w-md bg-white flex-1 flex flex-col items-center justify-center p-6 text-center shadow-sm my-auto md:my-4 md:rounded-xl">
+    <!-- MAIN CONTENT KONTENER (GAYA UNDANGAN) -->
+    <div class="w-full max-w-md bg-white flex-1 flex flex-col items-center justify-start pt-8 px-6 text-center shadow-sm my-auto md:my-4 md:rounded-xl">
         
-        <!-- LOGO / FOTO GRUP (Keliatan Hot/Mancing) -->
-        <div class="relative mb-6">
-            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=200&h=200&fit=crop" class="w-28 h-28 rounded-full object-cover shadow-md border-2 border-gray-100">
-            <span class="absolute bottom-0 right-0 bg-[#00a884] text-white p-2 rounded-full text-xs shadow">
-                <i class="fa-solid fa-users text-sm"></i>
+        <!-- LOGO WHATSAPP KECIL DI ATAS -->
+        <div class="flex items-center space-x-1.5 text-gray-500 text-xs font-semibold uppercase tracking-wider mb-4">
+            <div class="w-5 h-5 bg-[#25D366] text-white rounded-full flex items-center justify-center text-[11px]">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <span>WhatsApp • Undangan Grup</span>
+        </div>
+
+        <!-- FOTO GRUP -->
+        <div class="relative mb-4">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop" class="w-28 h-28 rounded-full object-cover shadow-lg border-4 border-white">
+            <span class="absolute bottom-0 right-0 bg-[#25D366] text-white p-2 rounded-full text-xs shadow-md border-2 border-white">
+                <i class="fa-solid fa-lock text-xs"></i>
             </span>
         </div>
 
-        <!-- NAMA GRUP & INFO -->
-        <span class="text-[11px] font-bold text-red-500 uppercase tracking-wider bg-red-50 px-3 py-1 rounded-full mb-2 border border-red-100">
-            ⚠️ Grup Khusus 18+ (Malam Jumat)
-        </span>
-        <h1 class="text-lg font-bold text-gray-900 mb-1 leading-snug">🔥 Video & Hiburan Eksklusif Bapak-Bapak 🔥</h1>
-        <p class="text-xs text-gray-500 mb-6">Grup WhatsApp • 312 Anggota • 45 Online</p>
+        <!-- NAMA GRUP -->
+        <h1 class="text-xl font-bold text-gray-900 mb-1">🔥 Malam Jumat (Khusus 18+) 🔥</h1>
+        <p class="text-xs text-gray-500 mb-4">Grup WhatsApp • 342 Anggota</p>
 
-        <!-- DESKRIPSI / PERATURAN -->
-        <div class="bg-gray-50 p-4 rounded-xl text-left text-xs text-gray-600 mb-8 w-full border border-gray-200 space-y-1.5 shadow-inner">
-            <p class="font-bold text-gray-800 mb-1">Ketentuan Grup:</p>
-            <p>• Wajib usia 18 tahun ke atas.</p>
-            <p>• Dilarang sebar link HOAX / SARA.</p>
-            <p>• Siap mental nerima kiriman video panas setiap malam.</p>
+        <!-- KOTAK DESKRIPSI -->
+        <div class="bg-gray-50 p-4 rounded-xl text-left text-xs text-gray-600 mb-8 w-full border border-gray-200 space-y-2">
+            <p class="font-bold text-gray-800">📌 Peraturan & Info:</p>
+            <p>• Dilarang keras anggota di bawah umur 18 tahun.</p>
+            <p>• Sedia kopi & rokok, siapin mental nerima kiriman video panas tiap jam 12 malam.</p>
         </div>
 
-        <!-- TOMBOL BERGABUNG KE CHAT (Ganti link shopee affiliate lu di href bawah ini) -->
-        <a href="https://s.shopee.co.id/50abIx4nOT" target="_blank" class="w-full bg-[#00a884] hover:bg-[#008f72] text-white font-semibold py-3.5 px-4 rounded-full text-sm shadow-md transition flex items-center justify-center space-x-2">
+        <!-- TOMBOL BERGABUNG KE CHAT (LINK AFFILIATE LU) -->
+        <a href="https://s.shopee.co.id/50abIx4nOT" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold py-3.5 px-4 rounded-full text-sm shadow-md transition flex items-center justify-center space-x-2">
             <span>Bergabung ke Chat</span>
         </a>
 
     </div>
 
-    <!-- FOOTER -->
-    <div class="w-full bg-white py-4 text-center text-xs text-gray-400 border-t border-gray-200">
+    <!-- FOOTER BAWAH -->
+    <div class="w-full bg-white py-3 text-center text-xs text-gray-400 border-t border-gray-200">
         Belum menggunakan WhatsApp? <a href="#" class="text-[#00a884] font-medium">Unduh di sini</a>
     </div>
 
