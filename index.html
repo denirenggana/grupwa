@@ -3,19 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undangan Grup WhatsApp - 18+ Malam Jumat</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Undangan Grup WhatsApp</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome Icons CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #0b141a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: #f0f2f5; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     </style>
 </head>
-<body class="flex justify-center items-center h-screen m-0 text-gray-200">
+<body class="flex flex-col justify-between items-center h-screen m-0 text-gray-800">
 
-    <div class="w-full max-w-sm bg-[#111b21] p-6 rounded-2xl shadow-2xl border border-gray-800 flex flex-col items-center text-center">
+    <!-- HEADER WHATSAPP WEB INVITE -->
+    <div class="w-full bg-white px-4 py-3 shadow-sm flex items-center justify-between border-b border-gray-200">
+        <div class="flex items-center space-x-2 text-gray-600">
+            <i class="fa-solid fa-chevron-left text-base"></i>
+            <span class="text-sm font-medium">Undangan Grup WhatsApp</span>
+        </div>
+        <div class="flex items-center space-x-3 text-gray-600">
+            <i class="fa-solid fa-ellipsis-vertical text-lg"></i>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT KONTENER -->
+    <div class="w-full max-w-md bg-white flex-1 flex flex-col items-center justify-center p-6 text-center shadow-sm my-auto md:my-4 md:rounded-xl">
         
-        <!-- Logo WhatsApp / Foto Grup -->
-        <div class="relative mb-4">
-            <img src="
+        <!-- LOGO / FOTO GRUP (Keliatan Hot/Mancing) -->
+        <div class="relative mb-6">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=200&h=200&fit=crop" class="w-28 h-28 rounded-full object-cover shadow-md border-2 border-gray-100">
+            <span class="absolute bottom-0 right-0 bg-[#00a884] text-white p-2 rounded-full text-xs shadow">
+                <i class="fa-solid fa-users text-sm"></i>
+            </span>
+        </div>
+
+        <!-- NAMA GRUP & INFO -->
+        <span class="text-[11px] font-bold text-red-500 uppercase tracking-wider bg-red-50 px-3 py-1 rounded-full mb-2 border border-red-100">
+            ⚠️ Grup Khusus 18+ (Malam Jumat)
+        </span>
+        <h1 class="text-lg font-bold text-gray-900 mb-1 leading-snug">🔥 Video & Hiburan Eksklusif Bapak-Bapak 🔥</h1>
+        <p class="text-xs text-gray-500 mb-6">Grup WhatsApp • 312 Anggota • 45 Online</p>
+
+        <!-- DESKRIPSI / PERATURAN -->
+        <div class="bg-gray-50 p-4 rounded-xl text-left text-xs text-gray-600 mb-8 w-full border border-gray-200 space-y-1.5 shadow-inner">
+            <p class="font-bold text-gray-800 mb-1">Ketentuan Grup:</p>
+            <p>• Wajib usia 18 tahun ke atas.</p>
+            <p>• Dilarang sebar link HOAX / SARA.</p>
+            <p>• Siap mental nerima kiriman video panas setiap malam.</p>
+        </div>
+
+        <!-- TOMBOL BERGABUNG KE CHAT (Ganti link shopee affiliate lu di href bawah ini) -->
+        <a href="https://s.shopee.co.id/50abIx4nOT" target="_blank" class="w-full bg-[#00a884] hover:bg-[#008f72] text-white font-semibold py-3.5 px-4 rounded-full text-sm shadow-md transition flex items-center justify-center space-x-2">
+            <span>Bergabung ke Chat</span>
+        </a>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="w-full bg-white py-4 text-center text-xs text-gray-400 border-t border-gray-200">
+        Belum menggunakan WhatsApp? <a href="#" class="text-[#00a884] font-medium">Unduh di sini</a>
+    </div>
+
+</body>
+</html>
